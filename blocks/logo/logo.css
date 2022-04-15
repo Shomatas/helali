@@ -3,14 +3,3 @@
   cursor: default;
   user-select: none;
 }
-
-.logo-img{
-  padding-right: 26px;
-}
-
-.logo-title{
-  color: white;
-  font-family: 'poppins';
-  font-size: 24pt;
-  font-weight: 700;
-}

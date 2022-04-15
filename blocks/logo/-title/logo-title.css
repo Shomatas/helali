@@ -1,0 +1,12 @@
+.logo-title{
+  color: white;
+  font-family: 'poppins';
+  font-size: 24pt;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 900px) {
+  .logo-title{
+    display: none;
+  }
+}

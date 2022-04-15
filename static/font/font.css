@@ -3,3 +3,9 @@
   font-weight: 700;
   src: url('Poppins-BoldItalic.ttf');
 }
+
+@font-face {
+  font-family: 'poppins';
+  font-weight: 400;
+  src: url('Poppins-Regular.ttf');
+}

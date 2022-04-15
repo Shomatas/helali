@@ -1,0 +1,15 @@
+.menu__list-mobile{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: absolute;
+  top: 0px;
+  transition: left 0.3s;
+  background: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.menu__list-mobile a{
+  padding: 15px;
+}

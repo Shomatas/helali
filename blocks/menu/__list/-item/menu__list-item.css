@@ -1,0 +1,12 @@
+.menu__list-item{
+  text-transform: uppercase;
+  font-family: 'poppins';
+  font-weight: 400;
+  font-size: 16pt;
+  color: var(--gray);
+  transition: color 0.3s;
+}
+
+.menu__list-item:hover{
+  color: white;
+}
