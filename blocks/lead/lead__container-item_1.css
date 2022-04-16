@@ -1,0 +1,10 @@
+.lead__container-item_1{
+  margin-left: auto;
+}
+
+@media screen and (max-device-width: 730px){
+  .lead__container-item_1{
+    margin-right: auto;
+    text-align: center;
+  }
+}

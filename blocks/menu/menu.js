@@ -11,14 +11,14 @@ const openMenu = () => {
 
 export const menuOnResize = () => {
   let isBurgerContains = document.body.contains(burger);
-  if(window.screen.width <= 700 &&
+  if(window.screen.width <= 730 &&
      !isBurgerContains){
     menuList.classList.add("menu__list-mobile");
     menuList.classList.add("menu__list-mobile_disable");
     burger.onclick = openMenu;
     menu.appendChild(burger);
   }
-  else if(window.screen.width > 700 &&
+  else if(window.screen.width > 730 &&
   isBurgerContains){
     burger.remove();
     menuList.classList.remove("menu__list-mobile");

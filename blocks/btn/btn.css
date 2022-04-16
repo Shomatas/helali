@@ -1,0 +1,62 @@
+.btn{
+  cursor: pointer;
+  font-size: 18pt;
+  font-family: 'poppins';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  background: none;
+  border: solid 2px white;
+  border-radius: 5px;
+  margin: auto;
+  padding: 20px 50px;
+  position: relative;
+  transition: border 0.3s, color 0.3s;
+}
+
+.btn:hover{
+  border-color: var(--light-green);
+  color: var(--light-green);
+}
+
+.btn::before{
+  content: '';
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: var(--light-green);
+  position: absolute;
+  top: 50%;
+  margin-top: -7px;
+  border-radius: 100%;
+  margin-left: -30px;
+  transition: background 0.3s;
+}
+
+.btn:hover::before,
+.btn:hover::after{
+  background: white;
+}
+
+.btn:active::before,
+.btn:active::after{
+  background: var(--light-green);
+}
+
+.btn::after{
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  content: '';
+  display: block;
+  height: 2px;
+  width: 62px;
+  background: var(--light-green);
+  transition: background 0.3s;
+}
+
+@media screen and (max-device-width: 1100px){
+  .btn{
+    font-size: 9pt;
+  }
+}

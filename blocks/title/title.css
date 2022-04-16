@@ -1,0 +1,11 @@
+.title{
+  font-size: 72pt;
+  font-family: 'poppins';
+  font-weight: bold;
+}
+
+@media screen and (max-device-width: 1100px){
+  .title{
+    font-size: 36pt;
+  }
+}

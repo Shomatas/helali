@@ -1,0 +1,5 @@
+.lead__container-item{
+  display: inline-flex;
+  flex-direction: column;
+  margin: auto 0;
+}

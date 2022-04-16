@@ -1,0 +1,19 @@
+.lead{
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  height: 100vh;
+}
+
+@media screen and (min-device-width: 730px){
+  .lead{
+    background-image: url('../../static/img/lead.jpg');
+  }
+}
+
+@media screen and (max-device-width: 730px){
+  .lead{
+    background-image: url('../../static/img/lead_mobile.jpg');
+  }
+}

@@ -1,0 +1,11 @@
+.lead__container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+}
+
+@media screen and (max-device-width: 730px){
+  .lead__container{
+    display: flex;
+  }
+}
