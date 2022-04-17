@@ -4,6 +4,31 @@
   background-repeat: no-repeat;
   min-height: 500px;
   height: 100vh;
+  position: relative;
+}
+
+.lead::after{
+  content: '';
+  display: block;
+  height: 300px;
+  width: 4px;
+  background-color: var(--light-green);
+  position: absolute;
+  bottom: -200px;
+  left: 140px;
+}
+
+@media screen and (max-device-width: 1600px){
+  .lead::after{
+    height: 150px;
+    bottom: -75px;
+  }
+}
+
+@media screen and (max-device-width: 730px){
+  .lead::after{
+    display: none;
+  }
 }
 
 @media screen and (min-device-width: 730px){

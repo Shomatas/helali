@@ -2,6 +2,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 @media screen and (max-device-width: 730px){

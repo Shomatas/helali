@@ -29,12 +29,32 @@
 @import url("blocks/lead/lead__title.css");
 
 @import url("blocks/title/title.css");
+@import url("blocks/title/title_italic.css");
 @import url("blocks/title/title_white.css");
 @import url("blocks/title/title_gray.css");
 
 @import url("blocks/btn/btn.css");
 
+@import url("blocks/strong/strong.css");
+@import url("blocks/strong/strong_light-green.css");
+@import url("blocks/strong/strong_gray.css");
+
+@import url("blocks/description/description.css");
+
+@import url("blocks/cards/cards.css");
+
+@import url("blocks/card/card.css");
+@import url("blocks/card/card__img.css");
+@import url("blocks/card/card__title.css");
+
+@import url("blocks/about/about__cards.css");
+
 :root{
   --gray: #404245;
   --light-green: #05fab6;
+}
+
+h1, h2, h3, h4, h5, h6{
+  padding: 0;
+  margin: 0;
 }
