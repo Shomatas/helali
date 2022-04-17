@@ -7,7 +7,7 @@ export const leadOnResize = () => {
   if(window.screen.width <= 730 &&
     isTitleContain){
       container_item2.remove();
-      container_item1.childNodes[1].innerHTML = "We are <strong>Creative</strong>";
+      container_item1.childNodes[1].innerHTML = 'We are <strong class="strong strong_light-green">Creative</strong>';
     }
   else if(window.screen.width > 730 &&
   !isTitleContain){

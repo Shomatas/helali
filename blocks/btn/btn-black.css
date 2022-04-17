@@ -1,0 +1,14 @@
+.btn-black{
+  color: black;
+  border-color: black;
+}
+
+.btn-black:hover::before,
+.btn-black:hover::after{
+  background: black;
+}
+
+.btn-black:active::before,
+.btn-black:active::after{
+  background: var(--light-green);
+}

@@ -1,0 +1,11 @@
+.card__img_line::after{
+  content: '';
+  display: block;
+  height: 14px;
+  width: 100%;
+  background: var(--light-green);
+  position: absolute;
+  top: 50%;
+  margin-top: -7px;
+  z-index: -1;
+}

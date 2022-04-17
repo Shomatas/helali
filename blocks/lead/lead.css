@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   min-height: 500px;
   height: 100vh;
+  max-height: 1250px;
   position: relative;
 }
 

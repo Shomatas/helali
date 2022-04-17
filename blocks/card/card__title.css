@@ -1,9 +1,3 @@
 .card__title{
-  font-size: 48pt;
-}
-
-@media screen and (max-device-width: 730px) {
-  .card__title{
-    font-size: 32pt;
-  }
+  font-size: 30pt;
 }

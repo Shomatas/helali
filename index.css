@@ -34,6 +34,7 @@
 @import url("blocks/title/title_gray.css");
 
 @import url("blocks/btn/btn.css");
+@import url("blocks/btn/btn-black.css");
 
 @import url("blocks/strong/strong.css");
 @import url("blocks/strong/strong_light-green.css");
@@ -45,9 +46,12 @@
 
 @import url("blocks/card/card.css");
 @import url("blocks/card/card__img.css");
+@import url("blocks/card/card_img_line.css");
 @import url("blocks/card/card__title.css");
 
 @import url("blocks/about/about__cards.css");
+
+@import url("blocks/services/services__btn.css");
 
 :root{
   --gray: #404245;

@@ -17,10 +17,10 @@
         <nav class="menu">
           <ul class="menu__list">
             <a href="#"><li class="menu__list-item menu__list-item_active">Home</li></a>
-            <a href="#"><li class="menu__list-item">About</li></a>
-            <a href="#"><li class="menu__list-item">Services</li></a>
-            <a href="#"><li class="menu__list-item">Portfolio</li></a>
-            <a href="#"><li class="menu__list-item">Contact</li></a>
+            <a href="#about"><li class="menu__list-item">About</li></a>
+            <a href="#services"><li class="menu__list-item">Services</li></a>
+            <a href="#portfolio"><li class="menu__list-item">Portfolio</li></a>
+            <a href="#contact"><li class="menu__list-item">Contact</li></a>
           </ul>
         </nav>
       </div>
@@ -37,7 +37,7 @@
           </div>
         </div>
       </section>
-      <section class="about">
+      <section id="about" class="about">
         <div class="container about__container">
           <h1 class="title title_gray about__title">
             <strong class="strong strong_light-green">About</strong> us
@@ -51,7 +51,7 @@
             firms as well.</p>
           <div class="cards about__cards">
             <div class="cards__card card">
-              <div class="card__img">
+              <div class="card__img card__img_line">
                 <img src="static/img/dribbble.svg">
               </div>
               <span class="title title_gray title_italic card__title">dribbble</span>
@@ -59,7 +59,7 @@
                 You can get more porfolio sample here</p>
             </div>
             <div class="cards__card card">
-              <div class="card__img">
+              <div class="card__img card__img_line">
                 <img src="static/img/behance.svg">
               </div>
               <span class="title title_gray title_italic card__title">behance</span>
@@ -67,7 +67,7 @@
                 You can get more porfolio sample here</p>
             </div>
             <div class="cards__card card">
-              <div class="card__img">
+              <div class="card__img card__img_line">
                 <img src="static/img/cloud-upload-alt-solid.svg">
               </div>
               <span class="title title_gray title_italic card__title">Uplabs</span>
@@ -76,6 +76,45 @@
             </div>
           </div>
         </div>
+      </section>
+      <section class="services">
+        <div class="container services__container">
+          <h1 class="title">Our <strong class="strong strong_light-green">Services</strong></h1>
+          <p class="description description_gray">Graphic Design Services.
+            Websites, businesses and brands are all much more than just words
+            and products they're also images and art. Graphic design is an
+             integral part of any business and that's as true for your company's
+              image and your marketing.</p>
+          <div class="cards about__cards">
+            <div class="cards__card card">
+              <div class="card__img">
+                <img src="static/img/cubes-solid.svg">
+              </div>
+              <span class="title title_gray card__title">UX.UI Design</span>
+              <p class="description">Check out our <strong class="strong strong_gray">dribbble</strong> profile for more.
+                You can get more porfolio sample here</p>
+              <button class="btn btn-black services__btn">Portfolio</button>
+            </div>
+            <div class="cards__card card">
+              <div class="card__img">
+                <img src="static/img/cubes-solid.svg">
+              </div>
+              <span class="title title_gray card__title">Graphics Design</span>
+              <p class="description">Check out our <strong class="strong strong_gray">dribbble</strong> profile for more.
+                You can get more porfolio sample here</p>
+              <button class="btn btn-black services__btn">Portfolio</button>
+            </div>
+            <div class="cards__card card">
+              <div class="card__img">
+                <img src="static/img/lightbulb.svg">
+              </div>
+              <span class="title title_gray card__title">Logo Branding</span>
+              <p class="description">Check out our <strong class="strong strong_gray">dribbble</strong> profile for more.
+                You can get more porfolio sample here</p>
+              <button class="btn btn-black services__btn">Portfolio</button>
+              </div>
+            </div>
+          </div>
       </section>
     </main>
     <footer>
