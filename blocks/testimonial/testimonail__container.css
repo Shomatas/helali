@@ -1,0 +1,8 @@
+.testimonial__container{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 100px 0;
+  width: 80%;
+  max-width: 100%;
+  margin: 0;
+}
