@@ -35,6 +35,7 @@
 
 @import url("blocks/btn/btn.css");
 @import url("blocks/btn/btn-black.css");
+@import url("blocks/btn/btn-other_white.css");
 
 @import url("blocks/strong/strong.css");
 @import url("blocks/strong/strong_light-green.css");
@@ -63,11 +64,40 @@
 @import url("blocks/add-wrapper/add-wrapper__title.css");
 @import url("blocks/add-wrapper/add-wrapper__adder.css");
 
-@import url("blocks/testimonial/testimonail__container.css");
-@import url("blocks/testimonial/testimonuial__cite.css");
+@import url("blocks/testimonial/testimonial.css");
+@import url("blocks/testimonial/testimonial__container.css");
+@import url("blocks/testimonial/testimonial__cite.css");
+@import url("blocks/testimonial/testimonial__controls.css");
+@import url("blocks/testimonial/testimonial__title.css");
 
+@import url("blocks/controller/controller.css");
+
+@import url("blocks/advice/advice.css");
+
+@import url("blocks/slider/swiper-bullets.css");
+@import url("blocks/slider/slide-img.css");
+
+@import url("blocks/cite/cite.css");
+@import url("blocks/cite/cite__container.css");
+@import url("blocks/cite/cite__content.css");
+@import url("blocks/cite/cite__author-position.css");
+
+@import url("blocks/hello/hello.css");
+@import url("blocks/hello/hello__container.css");
+@import url("blocks/hello/hello-mail.css");
+
+@import url("blocks/form/form.css");
+@import url("blocks/form/form-input.css");
+@import url("blocks/form/form-textarea.css");
+@import url("blocks/form/form-submit.css");
+
+@import url("blocks/copyright/copyright.css");
+
+@import url("blocks/other/other.css");
+@import url("blocks/other/other__ul.css");
 
 :root{
+  --black: #232726;
   --gray: #404245;
   --light-green: #05fab6;
   --cyan: #05fab8;

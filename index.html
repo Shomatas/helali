@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Helali</title>
     <link href="index.css" rel="stylesheet" type="text/css">
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
   </head>
   <body class="page">
     <header class="header">
@@ -204,15 +207,116 @@
       </section>
       <section class="testimonial">
         <div class="container testimonial__container">
-          <div class="cite testimonial__cite">
-
+          <div class="cite testimonial__cite swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="slide-img">
+                  <img src="static/img/john.jpg">
+                </div>
+                <div class="container cite__container">
+                  <div class="cite__content">
+                    helali is the leading community of creatives,
+                    offering the best digital inspiration and
+                    dowloads, every day
+                  </div>
+                  <div class="cite__author">John Mikail,
+                    <strong class="cite__author-position">logo design</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-img">
+                  <img src="static/img/john.jpg">
+                </div>
+                <div class="container cite__container">
+                  <div class="cite__content">
+                    helali is the leading community of creatives,
+                    offering the best digital inspiration and
+                    dowloads, every day
+                  </div>
+                  <div class="cite__author">Ivan Komarov,
+                    <strong class="cite__author-position">web developer</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-img">
+                  <img src="static/img/john.jpg">
+                </div>
+                <div class="container cite__container">
+                  <div class="cite__content">
+                    helali is the leading community of creatives,
+                    offering the best digital inspiration and
+                    dowloads, every day
+                  </div>
+                  <div class="cite__author">John Carmack,
+                    <strong class="cite__author-position">game developer</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+          <div class="controls testimonial__controls">
+            <div class="container">
+              <h2 class="title testimonial__title">Testimonial</h2>
+              <div class="controller testimonial__controller">
+                <button class="btn btn-black btn-other btn-other_white">
+                  Find more
+                </button>
+                <div class="swiper-bullets">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="advice">
+          Find out more what people saying
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
+      <section class="hello">
+        <div class="container hello__container">
+          <h1 class="title title_white">Want to say
+            <strong class="strong strong_light-green">hello</strong>?
+          </h1>
+          <button class="btn">contact</button>
+          <span class="hello-mail">You can rich us via email
+            <strong class="strong strong_light-green">support@domain.com</strong>
+          </span>
+        </div>
+      </section>
+      <section class="send">
+        <form class="form" action="#" method="get">
+          <input class="form-input" placeholder="Subject"></input>
+          <input class="form-input" placeholder="Your Email here"></input>
+          <textarea class="form-textarea" placeholder="Drop message" rows="1"></textarea>
+          <submit class="btn btn-black form-submit">send us</submit>
+        </form>
+      </section>
+      <section class="other">
+        <div class="copyright">
+          All right reserved by
+          <strong class="strong strong_light-green">hellali.com</strong>
+          2018.
+        </div>
+        <ul class="menu__list other__ul">
+          <li>FAQC</li>
+          /
+          <li>Privacy policy</li>
+          /
+          <li>services</li>
 
+          <li>
+            <img src="static/img/facebook-f.svg">
+          </li>
+          <li>
+            <img src="static/img/linkedin-in.svg">
+          </li>
+        </ul>
+      </section>
     </footer>
   </body>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script type="module" src="index.js"></script>
 </html>

@@ -1,0 +1,9 @@
+.controller{
+  background: var(--light-green);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  width: 85%;
+  padding: 80px 0;
+}

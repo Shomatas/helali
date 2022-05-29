@@ -1,0 +1,10 @@
+.advice{
+  font-size: 24pt;
+  font-family: 'poppins';
+  font-weight: 400;
+  color: var(--gray);
+  position: absolute;
+  right: -220px;
+  top: 400px;
+  transform: rotate(-90deg);
+}

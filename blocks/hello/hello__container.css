@@ -1,0 +1,7 @@
+.hello__container{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 400px;
+}

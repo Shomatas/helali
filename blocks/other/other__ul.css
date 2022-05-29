@@ -1,0 +1,15 @@
+.other__ul{
+  font-size: 16pt;
+  font-weight: bold;
+  font-family: 'poppins';
+}
+
+.other__ul > li{
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+
+.other img{
+  width: 20px;
+  height: 20px;
+}

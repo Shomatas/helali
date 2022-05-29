@@ -1,0 +1,14 @@
+.btn-other_white::after,
+.btn-other_white::before{
+  background: white;
+}
+
+.btn-other_white:hover{
+  color: white;
+  border-color: white;
+}
+
+.btn-other_white:active::after,
+.btn-other_white:active::before{
+  background: white;
+}

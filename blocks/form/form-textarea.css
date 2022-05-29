@@ -1,0 +1,11 @@
+.form-textarea{
+  resize: none;
+  display: flex;
+  padding: 10px;
+  border: none;
+  font-size: 24pt;
+  font-weight: 400;
+  border-bottom: solid 3px var(--light-green);
+  outline: none;
+  font-family: 'poppins';
+}

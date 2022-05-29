@@ -1,0 +1,18 @@
+.testimonial__title{
+  font-size: 60pt;
+  text-align: right;
+  line-height: 60px;
+  position: relative;
+  color: var(--black);
+}
+
+.testimonial__title::after{
+  display: block;
+  content: '';
+  width: 170px;
+  height: 10px;
+  background: var(--light-green);
+  position: absolute;
+  bottom: 2px;
+  z-index: -1;
+}
