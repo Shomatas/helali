@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Helali</title>
     <link href="index.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="static/img/logo_icon.png">
     <link
   rel="stylesheet"
   href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <!-- <link href="static/icons/all.css" rel="stylesheet"> -->
   </head>
   <body class="page">
     <header class="header">
@@ -33,7 +35,7 @@
         <div class="container lead__container">
           <div class="lead__container-item lead__container-item_1">
             <h1 class="title title_white lead__title">We are</h1>
-            <button class="btn">Portfolio</button>
+            <a href="#portfolio"><button class="btn">Portfolio</button></a>
           </div>
           <div class="lead__container-item lead__container-item_2">
             <span class="title title_gray lead__title">Creative</span>
@@ -80,9 +82,9 @@
           </div>
         </div>
       </section>
-      <section class="services">
+      <!-- <section id="services" class="services">
         <div class="container services__container">
-          <h1 class="title">Our <strong class="strong strong_light-green">Services</strong></h1>
+          <h1 class="title title_gray">Our <strong class="strong strong_light-green">Services</strong></h1>
           <p class="description description_gray">Graphic Design Services.
             Websites, businesses and brands are all much more than just words
             and products they're also images and art. Graphic design is an
@@ -96,7 +98,7 @@
               <span class="title title_gray card__title">UX.UI Design</span>
               <p class="description">Check out our <strong class="strong strong_gray">dribbble</strong> profile for more.
                 You can get more porfolio sample here</p>
-              <button class="btn btn-black services__btn">Portfolio</button>
+              <a href="#portfolio"><button class="btn btn-black services__btn">Portfolio</button></a>
             </div>
             <div class="cards__card card">
               <div class="card__img">
@@ -105,7 +107,7 @@
               <span class="title title_gray card__title">Graphics Design</span>
               <p class="description">Check out our <strong class="strong strong_gray">dribbble</strong> profile for more.
                 You can get more porfolio sample here</p>
-              <button class="btn btn-black services__btn">Portfolio</button>
+              <a href="#portfolio"><button class="btn btn-black services__btn">Portfolio</button></a>
             </div>
             <div class="cards__card card">
               <div class="card__img">
@@ -114,14 +116,14 @@
               <span class="title title_gray card__title">Logo Branding</span>
               <p class="description">Check out our <strong class="strong strong_gray">dribbble</strong> profile for more.
                 You can get more porfolio sample here</p>
-              <button class="btn btn-black services__btn">Portfolio</button>
+              <a href="#portfolio"><button class="btn btn-black services__btn">Portfolio</button></a>
               </div>
             </div>
           </div>
       </section>
-      <section class="portfolio">
+      <section id="portfolio" class="portfolio">
         <div class="container">
-          <h1 class="title"><strong class="strong strong_light-green">Portfolio</strong> World</h1>
+          <h1 class="title title_gray"><strong class="strong strong_light-green">Portfolio</strong> World</h1>
           <p class="description description_gray">Graphic Design Services.
             Websites, businesses and brands are all much more than just words
             and products they're also images and art. Graphic design is an
@@ -272,10 +274,10 @@
         <div class="advice">
           Find out more what people saying
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="footer">
-      <section class="hello">
+    <!-- <footer class="footer">
+      <section id="contact" class="hello">
         <div class="container hello__container">
           <h1 class="title title_white">Want to say
             <strong class="strong strong_light-green">hello</strong>?
@@ -301,22 +303,23 @@
           2018.
         </div>
         <ul class="menu__list other__ul">
-          <li>FAQC</li>
+          <li><a href="#facq">FAQC</a></li>
           /
-          <li>Privacy policy</li>
+          <li><a href="#">Privacy policy</a></li>
           /
-          <li>services</li>
+          <li><a href="#">services</a></li>
 
           <li>
-            <img src="static/img/facebook-f.svg">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
           </li>
           <li>
-            <img src="static/img/linkedin-in.svg">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
           </li>
         </ul>
       </section>
-    </footer>
+    </footer> -->
   </body>
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script type="module" src="index.js"></script>
+  <script src="static/icons/all.min.js"></script>
 </html>

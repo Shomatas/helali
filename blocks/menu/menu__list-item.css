@@ -10,3 +10,9 @@
 .menu__list-item:hover{
   color: white;
 }
+
+@media screen and (max-device-width: 768px) {
+  .menu__list-item{
+    color: var(--light-green) !important;
+  }
+}

@@ -8,6 +8,7 @@
 
 .menu__list a{
   text-decoration: none;
+  transition: color .2s
 }
 
 .menu__list a:not(:last-child){

@@ -9,6 +9,14 @@
   text-transform: uppercase;
 }
 
+.other__ul a{
+  color: black;
+}
+
+.other__ul a:hover{
+  color: var(--light-green);
+}
+
 .other img{
   width: 20px;
   height: 20px;

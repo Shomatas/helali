@@ -1,7 +1,33 @@
 .burger{
   width: 50px;
-  height: 50px;
+  height: 3px;
   border: none;
-  background: none;
-  background-image: url('../../static/img/burger.svg');
+  background: var(--light-green);
+  position: relative;
+  z-index: 10;
+  /* background-image: url('../../static/img/burger.svg'); */
+}
+
+.burger::before{
+  transition: all 0.3s;
+  display: block;
+  content: '';
+  height: 3px;
+  width: 100%;
+  background: inherit;
+  position: absolute;
+  top: -15px;
+  left: 0;
+}
+
+.burger::after{
+  transition: all 0.3s;
+  display: block;
+  content: '';
+  height: 3px;
+  width: 100%;
+  background: inherit;
+  position: absolute;
+  top: 15px;
+  left: 0;
 }

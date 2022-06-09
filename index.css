@@ -20,6 +20,7 @@
 @import url("blocks/menu/menu__list-item_active.css");
 
 @import url("blocks/burger/burger.css");
+@import url("blocks/burger/burger_active.css");
 
 @import url("blocks/lead/lead.css");
 @import url("blocks/lead/lead__container.css");
