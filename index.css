@@ -97,15 +97,25 @@
 @import url("blocks/other/other.css");
 @import url("blocks/other/other__ul.css");
 
+@import url("blocks/footer/footer__send.css");
+@import url("blocks/footer/footer__social.css");
+
 :root{
   --black: #232726;
   --gray: #404245;
   --light-green: #05fab6;
   --cyan: #05fab8;
   --cyan-transparent: rgba(5, 250, 184, 0.5);
+  --mobile-gap: 0;
 }
 
 h1, h2, h3, h4, h5, h6{
   padding: 0;
   margin: 0;
+}
+
+@media screen and (max-device-width: 768px){
+  :root{
+    --mobile-gap: 20px;
+  }
 }

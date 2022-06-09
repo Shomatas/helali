@@ -1,3 +1,9 @@
 .testimonial{
   position: relative;
 }
+
+@media screen and (max-device-width: 768px){
+  .testimonial{
+    display: none;
+  }
+}

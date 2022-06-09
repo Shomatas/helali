@@ -24,3 +24,9 @@
 .add-wrapper__btn::before{
   display: none;
 }
+
+@media screen and (max-device-width: 599.97px){
+  .add-wrapper__adder{
+    opacity: 1 !important;
+  }
+}

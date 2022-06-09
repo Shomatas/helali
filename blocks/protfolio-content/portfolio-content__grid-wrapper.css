@@ -1,3 +1,19 @@
 .portfolio-content__grid-wrapper{
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 2000px;
+    margin: 0 auto;
+}
+
+@media screen and (max-device-width: 1199.97px){
+  .portfolio-content__grid-wrapper{
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-device-width: 599.97px){
+  .portfolio-content__grid-wrapper{
+    grid-template-columns: 1fr;
+    max-width: 330px;
+  }
 }
