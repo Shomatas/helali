@@ -4,7 +4,7 @@
     margin: 0 auto;
 }
 
-@media screen and (max-device-width: 1199.97px){
+@media screen and (max-width: 1279.97px){
   .portfolio-content__grid-wrapper{
     grid-template-columns: 1fr 1fr;
     max-width: 1000px;

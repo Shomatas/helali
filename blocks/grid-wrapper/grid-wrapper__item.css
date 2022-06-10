@@ -32,7 +32,7 @@
   height: 100%;
 }
 
-@media screen and (max-device-width: 1199.97px){
+@media screen and (max-width: 1279.97px){
   .grid-wrapper__item{
     height: calc(100vw / 2);
   }
