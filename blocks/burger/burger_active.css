@@ -1,11 +1,11 @@
 .burger_active::before{
   width: 45%;
-  top: 7px;
+  top: 6px;
   transform: rotate(30deg);
 }
 
 .burger_active::after{
   width: 45%;
-  top: -7px;
+  top: -6px;
   transform: rotate(-30deg);
 }
