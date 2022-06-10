@@ -114,15 +114,9 @@ h1, h2, h3, h4, h5, h6{
   margin: 0;
 }
 
-@media screen and (max-device-width: 768px){
-  :root{
-    --mobile-gap: 20px;
-  }
-}
-
-@media screen and (min-device-width: 1401px){
+@media screen and (min-device-width: 769px){
   body{
-    min-width: 1400px;
+    min-width: 769px;
   }
 }
 
@@ -132,8 +126,14 @@ h1, h2, h3, h4, h5, h6{
   }
 }
 
-@media screen and (min-device-width: 769px){
+@media screen and (min-device-width: 1401px){
   body{
-    min-width: 769px;
+    min-width: 1400px;
+  }
+}
+
+@media screen and (max-device-width: 768px){
+  :root{
+    --mobile-gap: 20px;
   }
 }
