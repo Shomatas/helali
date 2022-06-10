@@ -6,3 +6,10 @@
   max-width: 100%;
   margin: 0;
 }
+
+@media screen and (max-device-width: 1400px){
+  .testimonial__container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
